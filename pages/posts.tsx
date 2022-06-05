@@ -14,7 +14,6 @@ import Layout from "~/components/Layout";
 import { useAppDispatch } from "~/redux/hooks";
 import { useEffect, useState } from "react";
 import { setTitle } from "~/redux/reducers/viewUpdate";
-import { useListPostsQuery } from "~/redux/services/wpData";
 import { WP_REST_API_Post } from "wp-types";
 import * as HtmlToText from "html-to-text";
 import ChromeReaderModeRoundedIcon from "@mui/icons-material/ChromeReaderModeRounded";
