@@ -14,15 +14,15 @@ const list: ListItem<
         icon: HomeIcon,
     },
     {
-        name: "Work",
-        href: "/work",
+        name: "Projects",
+        href: "/projects",
         icon: WorkIcon,
     },
-    {
-        name: "Posts",
-        href: "/posts",
-        icon: ArticleRoundedIcon,
-    },
+#    {
+#        name: "Posts",
+#        href: "/posts",
+#        icon: ArticleRoundedIcon,
+#    },
 ];
 
 export default list;

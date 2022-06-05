@@ -1,33 +1,27 @@
 # Home
 
 <p>
-  <a href="https://ahdark.com" target="_blank">
-    <img alt="Blog" src="https://img.shields.io/badge/Blog-ahdark.com-%231D7EA7.svg?logo=wordpress&logoColor=white" />
+  <a href="https://blog.iamsjy.com" target="_blank">
+    <img alt="Blog" src="https://img.shields.io/badge/Blog-blog.iamsjy.com-%231D7EA7.svg?logo=hexo&logoColor=white" />
   </a> 
-  <a href="https://github.com/AH-dark" target="_blank">
-    <img alt="Github" src="https://img.shields.io/badge/GitHub-AHdark-%2312100E.svg?logo=Github&logoColor=white" />
+  <a href="https://github.com/hmsjy2017" target="_blank">
+    <img alt="Github" src="https://img.shields.io/badge/GitHub-hmsjy2017-%2312100E.svg?logo=Github&logoColor=white" />
   </a> 
-  <a href="https://wakatime.com/@81977bc9-5534-44bf-89f9-d1a4cd76fc29">
-    <img src="https://wakatime.com/badge/user/81977bc9-5534-44bf-89f9-d1a4cd76fc29.svg" alt="Total time coded since Dec 31 2021" />
-  </a>
 </p>
 
-- 👋 Hi, I’m [@AH-dark](https://ahdark.com)
-- 👀 I’m interested in React / TypeScript / Spring Boot
-- 🌱 I’m currently learning C++ / C Sharp / Python / TypeScript / PHP / Golang / Java
-- 💞️ I’m looking to collaborate on [React](https://github.com/facebook/react)
-  / [WordPress](https://github.com/WordPress/WordPress/)
-- 📫 How to reach me : <https://ahdark.com/contact>
+- 👋 Hi, I’m [Tony](https://blog.iamsjy.com)
+- 👀 I’m interested in Linux / Raspberry Pi / PHP
+- 🌱 I’m currently learning Python / HTML
+- 💞️ I’m looking to collaborate on [Raspbian Addons](https://github.com/raspbian-addons)
+  / [DevForFree](https://github.com/DevForFree)
+- 📫 How to reach me : <https://blog.iamsjy.com/about>
 
-I'm very grateful to [@Yui](https://github.com/topjohncian) for helping me in React and TypeScript, which gives me
-ability to develop the front-end by the React technology.
 
 ## Info
 
-- I was born on April 28, 2007, in Beijing.
-- I live in Haidian District, Beijing, People's Republic of China.
-- I am a junior high school student in [Beijing 101 Middle School](http://www.beijing101.com), and I will take the
-  senior high school entrance examination in 2022.
-- I love computer science and have been studying for almost 10 years.
+- I was born in 2004, in Jiangsu.
+- I live in Haimen District, Nantong, People's Republic of China.
+- I am a senior high school student who will take the university entrance examination in 2023.
 
-**Welcome to my blog: <https://ahdark.com>**
+
+**Welcome to my blog: <https://blog.iamsjy.com>**

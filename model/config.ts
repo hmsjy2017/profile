@@ -14,13 +14,5 @@ export default interface Config {
     CDN?: {
         gravatar?: string;
     };
-    matomo?: {
-        url: string;
-        siteId: string;
-        jsTrackerFile?: string;
-        phpTrackerFile?: string;
-        excludeUrlsPatterns?: RegExp[];
-    };
-    wordpress: string;
     social?: ListItem<IconDefinition>[];
 }

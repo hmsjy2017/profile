@@ -18,7 +18,7 @@ import { setTitle } from "~/redux/reducers/viewUpdate";
 
 // noinspection JSUnusedGlobalSymbols
 export const getStaticProps: GetStaticProps = async () => {
-    const post = fs.readFileSync("./source/pages/work.md").toString("utf8");
+    const post = fs.readFileSync("./source/pages/projects.md").toString("utf8");
 
     return {
         props: {
@@ -27,10 +27,10 @@ export const getStaticProps: GetStaticProps = async () => {
     };
 };
 
-const Work: NextPage<{ post: string }> = (props) => {
+const projects: NextPage<{ post: string }> = (props) => {
     const dispatch = useAppDispatch();
     useEffect(() => {
-        dispatch(setTitle("Work"));
+        dispatch(setTitle("projects"));
     }, [dispatch]);
 
     return (
@@ -46,22 +46,22 @@ const Work: NextPage<{ post: string }> = (props) => {
                 <Timeline>
                     <TimelineItem>
                         <TimelineOppositeContent color="text.secondary">
-                            {"2020.6 ~ 2021.7"}
+                            {"2021.10 ~ Now"}
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot />
                             <TimelineConnector />
                         </TimelineSeparator>
-                        <TimelineContent>RoundCloud</TimelineContent>
+                        <TimelineContent>Raspbian Addons</TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent color="text.secondary">
-                            {"2021.9 ~ Now"}
+                            {"2022.5 ~ Now"}
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot />
                         </TimelineSeparator>
-                        <TimelineContent>Ungine Tech.</TimelineContent>
+                        <TimelineContent>FreeForDev</TimelineContent>
                     </TimelineItem>
                 </Timeline>
             </Paper>
@@ -69,4 +69,4 @@ const Work: NextPage<{ post: string }> = (props) => {
     );
 };
 
-export default Work;
+export default Projects;
