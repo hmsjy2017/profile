@@ -37,11 +37,6 @@ const theme = createTheme({
 });
 
 const App: React.FC<AppProps> = ({ Component, pageProps }) => {
-    useEffect(() => {
-        if (typeof config.matomo !== "undefined") {
-            Matomo.init(config.matomo);
-        }
-    }, []);
 
     const title = useAppSelector((state) => state.viewUpdate.title);
 
