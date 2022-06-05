@@ -69,4 +69,4 @@ const projects: NextPage<{ post: string }> = (props) => {
     );
 };
 
-export default Projects;
+export default projects;
